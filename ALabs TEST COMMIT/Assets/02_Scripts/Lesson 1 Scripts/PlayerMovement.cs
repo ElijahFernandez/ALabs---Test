@@ -1,4 +1,4 @@
-//using PlayFab.PfEditor;
+ //using PlayFab.PfEditor;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -130,9 +130,6 @@ public class PlayerMovement : MonoBehaviour
             }
         }
     }
-
-    
-
 }
 
 

@@ -21,8 +21,8 @@ public class DashboardPage : MonoBehaviour
     [Header("Lesson 1")]
     [SerializeField] GameObject Lesson1Canvas;
 
-    [Header("Level 2")]
-    [SerializeField] GameObject Level2Canvas;
+    /*[Header("Level 2")]
+    [SerializeField] GameObject Level2Canvas;*/
 
     #region DASHBOARD FUNCTIONS
     public void OpenDashboardPage()
@@ -32,7 +32,7 @@ public class DashboardPage : MonoBehaviour
         SettingsCanvas.SetActive(false);
 
         Lesson1Canvas.SetActive(false);
-        Level2Canvas.SetActive(false);
+       // Level2Canvas.SetActive(false);
     }
 
     public void OpenSettingsPage()
@@ -42,7 +42,7 @@ public class DashboardPage : MonoBehaviour
         SettingsCanvas.SetActive(true);
 
         Lesson1Canvas.SetActive(false);
-        Level2Canvas.SetActive(false);
+       // Level2Canvas.SetActive(false);
     }
 
     public void OpenLessonsPage()
@@ -52,7 +52,7 @@ public class DashboardPage : MonoBehaviour
         SettingsCanvas.SetActive(false);
 
         Lesson1Canvas.SetActive(false);
-        Level2Canvas.SetActive(false);
+        //Level2Canvas.SetActive(false);
     }
     #endregion
 
@@ -86,7 +86,7 @@ public class DashboardPage : MonoBehaviour
         SettingsCanvas.SetActive(false);
 
         Lesson1Canvas.SetActive(true);
-        Level2Canvas.SetActive(false);
+        //Level2Canvas.SetActive(false);
     }
     #endregion
 }
